@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS files (
+    id SERIAL PRIMARY KEY,
+    original_filename VARCHAR(255) NOT NULL,
+    bucket1_id VARCHAR(50) NOT NULL,
+    bucket2_id VARCHAR(50) NOT NULL,
+    bucket3_id VARCHAR(50) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

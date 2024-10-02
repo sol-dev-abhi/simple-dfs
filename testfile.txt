@@ -1,0 +1,9 @@
+this is the test file
+
+this file will be stored in a distributed manner
+
+across 3 different servers/filesystem
+
+the metadata will be stored in postgres
+
+we can also implement a checksum function to verify that the file is not tampered with.
